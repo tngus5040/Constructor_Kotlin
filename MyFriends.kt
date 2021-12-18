@@ -24,5 +24,10 @@ class MyFriends() {
     constructor(name:String) : this(){
         this.name = name
     }
-
+    constructor(name:String, age:Int) : this(){
+	this.name = name
+	this.age = age
+    }
 }
+
+
